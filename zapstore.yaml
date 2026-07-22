@@ -29,4 +29,8 @@ tags:
 # si omette il campo — verificare se zsp lo esige)
 
 icon: https://barattolo.store/assets/icona-512.png
-# images: (screenshot veri, da aggiungere in Fase B)
+images:
+  - screenshot/01-vetrina.jpg
+  - screenshot/02-annuncio.jpg
+  - screenshot/03-escrow.jpg
+  - screenshot/04-profilo-scuro.jpg
