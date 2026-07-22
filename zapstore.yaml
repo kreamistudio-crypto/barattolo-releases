@@ -1,0 +1,27 @@
+# Scheda Zapstore di Barattolo — letta da `zsp publish`.
+# ATTENZIONE: zsp cambia in fretta; prima di ogni publish confrontare i
+# nomi dei campi col README di https://github.com/zapstore/zsp
+
+# La npub DEDICATA alle release (whitelisting del relay: deve stare qui,
+# nella root del repo pubblico)
+pubkey: INCOLLA_QUI_LA_NPUB_RELEASE
+
+name: Barattolo
+summary: Il mercatino in satoshi con escrow Lightning
+description: |
+  Compra e vendi oggetti veri pagando in satoshi. Ogni acquisto è
+  protetto da un escrow Lightning: i sats restano in custodia finché
+  il pacco non arriva, e la commissione è l'1%. Accedi con Telegram
+  o con la tua chiave Nostr; gli annunci vivono anche sui relay
+  (NIP-99). L'app è un involucro leggero di https://barattolo.store
+
+website: https://barattolo.store
+repository: https://github.com/kreamistudio-crypto/barattolo-releases
+release_source: https://github.com/kreamistudio-crypto/barattolo-releases
+tags: marketplace bitcoin lightning nostr italia
+
+# license: da decidere con Andrea (il sorgente è privato: probabilmente
+# si omette il campo — verificare se zsp lo esige)
+
+icon: https://barattolo.store/assets/icona-512.png
+# images: (screenshot veri, da aggiungere in Fase B)
