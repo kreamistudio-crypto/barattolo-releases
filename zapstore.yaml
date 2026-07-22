@@ -4,7 +4,7 @@
 
 # La npub DEDICATA alle release (whitelisting del relay: deve stare qui,
 # nella root del repo pubblico)
-pubkey: INCOLLA_QUI_LA_NPUB_RELEASE
+pubkey: npub1yjkuma9cenrzde7duj222gp44raqa88uj352z0akrtw0mvvfrhhsx8g68u
 
 name: Barattolo
 summary: Il mercatino in satoshi con escrow Lightning
