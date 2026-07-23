@@ -11,9 +11,9 @@ summary: Il mercatino in satoshi con escrow Lightning
 description: |
   Compra e vendi oggetti veri pagando in satoshi. Ogni acquisto è
   protetto da un escrow Lightning: i sats restano in custodia finché
-  il pacco non arriva, e la commissione è l'1%. Accedi con Telegram
-  o con la tua chiave Nostr; gli annunci vivono anche sui relay
-  (NIP-99). L'app è un involucro leggero di https://barattolo.store
+  il pacco non arriva. Accedi con Telegram o con la tua chiave Nostr;
+  gli annunci vivono anche sui relay (NIP-99). L'app è un involucro
+  leggero di https://barattolo.store
 
 website: https://barattolo.store
 repository: https://github.com/kreamistudio-crypto/barattolo-releases
