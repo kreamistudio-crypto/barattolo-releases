@@ -1,7 +1,8 @@
 # Barattolo 🫙⚡ — release ufficiali dell'app Android
 
 [Barattolo](https://barattolo.store) è il mercatino in satoshi: compri e
-vendi oggetti veri, e il pagamento è protetto da un escrow Lightning.
+vendi oggetti veri, e il pagamento è protetto da un deposito di
+garanzia Lightning (escrow).
 Questa pagina ospita **solo le release** dell'app Android (APK firmato):
 il codice del progetto vive altrove.
 

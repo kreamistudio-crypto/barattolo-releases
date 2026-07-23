@@ -7,11 +7,11 @@
 pubkey: npub1yjkuma9cenrzde7duj222gp44raqa88uj352z0akrtw0mvvfrhhsx8g68u
 
 name: Barattolo
-summary: Il mercatino in satoshi con escrow Lightning
+summary: Il mercatino in satoshi con pagamenti protetti
 description: |
   Compra e vendi oggetti veri pagando in satoshi. Ogni acquisto è
-  protetto da un escrow Lightning: i sats restano in custodia finché
-  il pacco non arriva. Accedi con Telegram o con la tua chiave Nostr;
+  protetto da un deposito di garanzia Lightning (escrow): i sats
+  restano in custodia finché il pacco non arriva. Accedi con Telegram o con la tua chiave Nostr;
   gli annunci vivono anche sui relay (NIP-99). L'app è un involucro
   leggero di https://barattolo.store
 
