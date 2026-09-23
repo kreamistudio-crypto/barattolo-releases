@@ -39,6 +39,21 @@ Il risultato deve coincidere con quello scritto nelle note di rilascio.
 Gli aggiornamenti sono comunque protetti da Android stesso: un APK
 firmato con una chiave diversa dalla nostra viene rifiutato.
 
+## Verificare l'app installata, con AppVerifier
+
+Per controllare che l'app che hai sul telefono sia proprio la nostra,
+incolla in [AppVerifier](https://github.com/soupslurpr/AppVerifier)
+queste due righe: il nome del pacchetto e l'impronta SHA-256 del
+certificato con cui firmiamo ogni APK, la stessa per tutte le versioni.
+
+```
+store.barattolo.app
+2F:3F:5E:68:94:AB:A0:B8:E4:39:B7:28:9D:55:50:D5:0E:22:37:15:F3:A8:E6:4F:2C:49:38:BC:D5:A2:C2:3C
+```
+
+Le stesse due righe stanno nelle note di ogni release e sul sito, in
+fondo a [Il pagamento protetto](https://barattolo.store/sicurezza#app).
+
 ## Domande
 
 Il posto giusto è il bot Telegram: [@ilbarattolobot](https://t.me/ilbarattolobot).
