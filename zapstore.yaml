@@ -18,6 +18,11 @@ description: |
 website: https://barattolo.store
 repository: https://github.com/kreamistudio-crypto/barattolo-releases
 release_source: https://github.com/kreamistudio-crypto/barattolo-releases
+# Nello stesso repo escono anche le release di Barattolo Negozio (tag
+# negozio-v*, scheda in negozio/zapstore.yaml): qui si prendono solo
+# i tag vX.Y e l'APK barattolo-X.Y.apk.
+release_filter: '^v[0-9]+\.[0-9]+$'
+match: '^barattolo-[0-9.]+\.apk$'
 tags:
   - marketplace
   - bitcoin

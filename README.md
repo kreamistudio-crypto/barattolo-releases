@@ -54,6 +54,25 @@ store.barattolo.app
 Le stesse due righe stanno nelle note di ogni release e sul sito, in
 fondo a [Il pagamento protetto](https://barattolo.store/sicurezza#app).
 
+## Barattolo Negozio
+
+Nello stesso repo escono anche le release di **Barattolo Negozio**, la
+cassa di Barattolo per chi vende di persona (negozi, banchi, eventi):
+si toccano gli articoli della propria vetrina e si incassa con un QR
+Lightning o on-chain, dritto al proprio wallet.
+
+- tag **`negozio-vX.Y`**
+- file **`barattolo-negozio-X.Y.apk`** con accanto il suo
+  `barattolo-negozio-X.Y.apk.sha256`
+- scheda Zapstore in [`negozio/zapstore.yaml`](negozio/zapstore.yaml)
+
+È firmata con lo stesso certificato di Barattolo. Per AppVerifier:
+
+```
+store.barattolo.negozio
+2F:3F:5E:68:94:AB:A0:B8:E4:39:B7:28:9D:55:50:D5:0E:22:37:15:F3:A8:E6:4F:2C:49:38:BC:D5:A2:C2:3C
+```
+
 ## Domande
 
 Il posto giusto è il bot Telegram: [@ilbarattolobot](https://t.me/ilbarattolobot).
